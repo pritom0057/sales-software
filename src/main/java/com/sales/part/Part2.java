@@ -27,7 +27,6 @@ public class Part2 extends BasePart {
     }
 
     public void calculate() {
-        jsonArrayInput = new JSONArrayInput();
         readFile(Constants.part2, logger);
         // Store discount codes and their corresponding values in a map
         createDiscountMap(jsonArrayInput.getDiscountArray());
